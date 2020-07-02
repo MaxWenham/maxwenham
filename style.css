@@ -44,47 +44,51 @@ a:hover {
     text-decoration: none;
 }
 
+.mwtext>img {
+    display: flex;
+    margin: 0 auto;
+    width: 70%;
+    height: 70%;
+    margin-top: 25px;
+}
+
 .intro {
     display: flex;
     flex-direction: row;
-    margin-top: 50px;
+    margin-top: 25px;
 }
 
-#video {
-    background-color: rgba(0, 0, 0, 0.63);
-    color: white;
-}
-
-#photography {
-    background-color: rgba(0, 0, 0, 0.63);
-    color: white;
-}
-
-#graphicdesign {
-    background-color: rgba(0, 0, 0, 0.63);
-    color: white;
-}
-
-#creator {
+#portfoliointro {
     display: flex;
-    justify-content: center;
-    margin-top: 35px;
-    color: white;
-}
-
-#creator>h2 {
     background-color: rgba(0, 0, 0, 0.63);
+    color: white;
+    justify-content: center;
+    padding: 0;
 }
 
-#video:hover {
+#aboutintro {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.63);
+    color: white;
+    justify-content: center;
+}
+
+#contactintro {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.63);
+    color: white;
+    justify-content: center;
+}
+
+#portfoliointro:hover {
     background-color: rgba(68, 68, 68, 0.63) 
 }
 
-#photography:hover {
+#aboutintro:hover {
     background-color: rgba(68, 68, 68, 0.63) 
 }
 
-#graphicdesign:hover {
+#contactintro:hover {
     background-color: rgba(68, 68, 68, 0.63) 
 }
 
