@@ -111,17 +111,15 @@ a:hover {
 }
 
 .videography {
+    display: flex;
     width: 50%;
+    align-items: center;
 }
 
 .videography>h1 {
+    display: flex;
     color: white;
-    font-size: 50px!important;
-}
-
-.videography>p {
-    color: white;
-    font-size: 17px;
+    font-size: 90px!important;
 }
 
 .vidtop {
@@ -148,19 +146,21 @@ hr {
 .phototop {
     margin-top: 50px;
     color: white;
+    justify-content: center;
 }
 
 .phototop>h1 {
-    font-size: 50px;
+    font-size: 70px;
 }
 
 .graphictop {
     margin-top: 50px;
     color: white;
+    justify-content: center;
 }
 
 .graphictop>h1 {
-    font-size: 50px;
+    font-size: 70px;
 }
 
 .graphicrow1 {
